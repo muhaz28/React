@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(45deg, #FF9A9E, #FAD0C4, #FBC2EB);
+
+
+}
+
+h2 {
+    font-size: 3rem;
+    border: 7px dashed paleturquoise;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 6vh;
+    color: aliceblue;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px ;
+    background-color: aliceblue;
+}
+
+.card:hover{
+    box-shadow: rgba(70, 10, 234, 0.24) 20px 30px 40px ;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.image {
+    width: 380px;
+}
+
+.tour-info {
+    margin: 20px 5px;
+}
+
+.tour-price {
+    color: #1faa59;
+    font-size: 1.3rem
+
+}
+
+.tour-name{
+    font-size: 1.5rem;
+}
+
+.read-more{
+    cursor: pointer;
+    color: #12b0e8;
+
+}
+
+
+.btn-red {
+    background-color:  powderblue;
+    padding: 10px 80px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn-red:hover{
+    color:rgb(233, 171, 190);
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px ;
+    transition: all 0.2s;
+}
+
+
+.refresh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: bold;
+    color : aliceblue;
+
+}
+
+.btn-white{
+    margin-top: 18px;
+    padding: 10px 80px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color:#FBC2EB;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.btn-white:hover{
+    background-color: aliceblue;
+    transition: all 0.2s;
+}
+
